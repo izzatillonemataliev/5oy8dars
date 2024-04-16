@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, rgba(225,251,63,1) 5%, rgba(252,70,107,1) 100%);
+    color: initial;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 3px gold;
+  }
+  
+  h1 {
+    text-align: center;
+    font-style: inherit;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .machine-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .machine-item img {
+    max-width: 50px;
+    margin-right: 10px;
+  }
+  
+  .machine-item span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .machine-item button {
+    margin-left: auto;
+  }
+  
